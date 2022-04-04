@@ -1,0 +1,102 @@
+/*Basic css*/
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    width:100%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin:23px 0;
+    color:rgb(82, 79, 79);
+    line-height:1.7em;
+}
+h4{
+    margin:5px 0;
+}
+section{
+    height: 450px;
+}
+/* top-header */
+.top-header{
+    background:url(./img/header-bg.png);
+    background-repeat:no-repeat;
+    padding: 10px;
+    background-size:contain;
+}
+/* sub-header */
+.half-width{
+    float:left;
+    width:40%;
+    padding-left:5%;
+    margin-left: 2%;
+}
+#header-info{
+    position: relative;
+    top: 22%;
+}
+.name_highlight{
+    color:rgb(221, 22, 115);
+}
+  /* button */
+  .hair-button {
+    color: rgb(221, 22, 115);
+    padding: 10px 15px;
+    font-weight: 700;
+    border-bottom: 1px solid;
+    position:relative;
+    z-index: 1;
+}
+.hair-button:hover{
+    color: #fff;
+    border-bottom: none;
+    transition:.99s;
+}
+.hair-button::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:40px;
+    width:0;
+    background:rgb(221, 22, 115);
+    /* color:#fff; */
+    border-radius:5px;
+    z-index:-1;
+}
+.hair-button:hover::after{
+    width:100%;
+    transition:.99s;
+}
+/* Bio */
+.bio-section{
+    background:url(./img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* last-work */
+.last-work-section{
+    background:url(./img/latest-work-bg.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    padding:10px;
+    height: 300px;
+}
+.last-work{
+    float:left;
+    width:26%;
+    padding:0 2.5%;
+    margin: 1%;
+
+}
+.last-work-section h2{
+    text-align:center;
+    margin:10px 0;
+}
+/* footer */
+.footer h2{
+    text-align: center;
+}
