@@ -63,6 +63,8 @@ section{
     height:40px;
     width:0;
     background:rgb(221, 22, 115);
+    background: rgb(89,115,173);
+background: linear-gradient(47deg, rgba(89,115,173,1) 18%, rgba(193,84,139,1) 79%);
     /* color:#fff; */
     border-radius:5px;
     z-index:-1;
@@ -97,6 +99,36 @@ section{
     margin:10px 0;
 }
 /* footer */
-.footer h2{
+.footer-section{
+    background:url(./img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer-details{
+    text-align:center;
+}
+.f-lorem {
+    width: 350px;
+    margin: auto;
+}
+.contact{
+    text-align:center;
+    width: 450px;
+    margin:auto;
+    background:rgb(221, 22, 115);
+    padding:10px;
+    border-radius:8px;
+    margin-top:50px;
+}
+.contact a{
+    color: #fff;
+}
+.contact p{
+    color: #fff;
+}
+footer p{
     text-align: center;
+}
+.client{
+    margin:20px 0;
 }
